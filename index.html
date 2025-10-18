@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glamour Bijuterias - Beleza em cada detalhe</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="./img/GB.png" alt="Imagem da Logo" class="logo-header">
+            <div class="logo"><span></span></div>
+            <div class="mobile-toggle">☰</div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#featured">Produtos</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#testimonials">Depoimentos</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Beleza que encanta em cada detalhe</h1>
+            <h2>Descubra nossa coleção exclusiva de bijuterias que traduzem elegância e sofisticação</h2>
+            <a href="#featured" class="btn">Explorar Coleção</a>
+        </div>
+    </section>
+
+    <section class="featured" id="featured">
+        <h2 class="section-title">Destaques da Coleção</h2>
+        <div class="products">
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="./img/IMG-20251008-WA0107.jpg" alt="Colar de Pérolas">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">Colar de Pérolas Elegance</h3>
+                    <div class="product-price">R$ 89,90</div>
+                    <a href="#" class="btn">Adicionar ao Carrinho</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="./img/IMG-20251008-WA0109.jpg" alt="Conjunto de Brincos">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">Conjunto de Brincos Crystal</h3>
+                    <div class="product-price">R$ 69,90</div>
+                    <a href="#" class="btn">Adicionar ao Carrinho</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="./img/IMG-20251008-WA0105.jpg" alt="Pulseira Dourada">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">Pulseira Dourada Charm</h3>
+                    <div class="product-price">R$ 59,90</div>
+                    <a href="#" class="btn">Adicionar ao Carrinho</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="./img/IMG-20251008-WA0104.jpg" alt="Anel Ajustável">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">Anel Ajustável Estrela</h3>
+                    <div class="product-price">R$ 45,90</div>
+                    <a href="#" class="btn">Adicionar ao Carrinho</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-container">
+            <div class="about-img">                
+                <video src="./img/Logo.mp4" autoplay muted loop **playsinline**></video>
+            </div>
+            <div class="about-text">
+                <h2>Sobre a Glamour Bijuterias</h2>
+                <p>Nascemos da paixão por criar peças que valorizam a beleza única de cada mulher. Há mais de 5 anos no mercado, a Glamour Bijuterias se destaca pela qualidade e exclusividade de suas coleções.</p>
+                <p>Todas as nossas peças são cuidadosamente selecionadas e produzidas com materiais de alta qualidade, garantindo durabilidade e beleza duradoura.</p>
+                <a href="#" class="btn">Conheça Nossa História</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials" id="testimonials">
+        <div class="testimonials-container">
+            <h2 class="section-title">O Que Dizem Nossos Clientes</h2>
+            <div class="testimonial-slider">
+                <div class="testimonial active">
+                    <p class="testimonial-text">"As bijuterias da Glamour são simplesmente perfeitas! A qualidade é excelente e sempre recebo muitos elogios quando uso. Além disso, o atendimento é impecável."</p>
+                    <p class="testimonial-author">- Maria Silva</p>
+                </div>
+
+                <div class="testimonial">
+                    <p class="testimonial-text">"Compro há anos na Glamour e nunca me decepcionei. As peças são lindas, duráveis e com preço justo. Sem dúvidas, a melhor loja de bijuterias que já conheci!"</p>
+                    <p class="testimonial-author">- Ana Paula Oliveira</p>
+                </div>
+
+                <div class="testimonial">
+                    <p class="testimonial-text">"Adoro a diversidade de peças que encontro na Glamour. Sempre tem novidades e consigo montar looks incríveis com as bijuterias que compro aqui. Recomendo muito!"</p>
+                    <p class="testimonial-author">- Juliana Mendes</p>
+                </div>
+            </div>
+            <div class="slider-nav">
+                <div class="slider-dot active" data-index="0"></div>
+                <div class="slider-dot" data-index="1"></div>
+                <div class="slider-dot" data-index="2"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter">
+        <div class="newsletter-container">
+            <h2>Fique por dentro das novidades</h2>
+            <p>Cadastre-se para receber nossas promoções e lançamentos em primeira mão</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Seu melhor e-mail" required>
+                <button type="submit">Inscrever-se</button>
+            </form>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="footer-container">
+            <div class="footer-col">
+                <h3>Glamour Bijuterias</h3>
+                <p>Beleza em cada detalhe, elegância em cada momento.</p>
+                <div class="social-icons">
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3>Links Rápidos</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#featured">Produtos</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#testimonials">Depoimentos</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Categorias</h3>
+                <ul>
+                    <li><a href="#">Colares</a></li>
+                    <li><a href="#">Brincos</a></li>
+                    <li><a href="#">Pulseiras</a></li>
+                    <li><a href="#">Anéis</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Contato</h3>
+                <ul>
+                    <li>contato@glamourbijuterias.com.br</li>
+                    <li>(11) 99999-9999</li>
+                    <li>Av. Paulista, 1000 - São Paulo/SP</li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© 2025 Glamour Bijuterias. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <div class="popup-overlay">
+        <div class="popup">
+            <div class="popup-close">&times;</div>
+            <h2>10% OFF na primeira compra!</h2>
+            <p>Cadastre-se em nossa newsletter e ganhe 10% de desconto em sua primeira compra.</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Seu melhor e-mail" required>
+                <button type="submit" class="btn">Quero meu desconto</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
